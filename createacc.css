@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+BODY{
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(img/create.jfif);
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0 11.2%;
+}
+
+nav{
+   display: flex;
+   align-items: center;
+   width: 100%;
+   flex-wrap: wrap;
+   padding: 10px 0; 
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 55%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-align: center;
+    border: 5px solid transparent;
+    background: transparent;
+    border-radius: 15px;
+    color:white;
+    text-decoration: solid;
+    position: relative;
+    transition: background 2s;
+}
+nav ul li a:hover{
+    background:black;
+}
+.logo{
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    cursor: pointer;
+}
+.logo p{
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 1%;
+}
+
+.logo h1{
+    font-size: 70px;
+    line-height: 1;
+    color:black;
+    -webkit-text-stroke: 1.5px rgb(212, 201, 201); 
+}
+
+.logo h3{
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
+    margin-left: 1%;
+    color: rgb(217, 227, 230);
+}
+.logo a{
+    text-decoration: none;
+}
+.title{
+    position: absolute;
+    top: 24%;
+    left: 67%;
+    font-weight: 100;
+    font-size: 40px;
+    color:currentColor;
+    -webkit-text-stroke: 0.1px black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.box{
+    width: 410px;
+    height: 530px;
+    padding: 40px 30px 30px 80px;
+    background-color:transparent;
+    box-shadow: 0 0 10px 0 #000;
+    border-radius: 20px;
+    margin: auto;
+    position: absolute;
+    top: 23%;
+    left: 65%;
+}
+form input[type=text]{
+    width: 250px;
+    height:50px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    border-color: #000;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    font-size: larger;
+    color: white;
+
+}
+form input[type=password]{
+  width: 250px;
+  height:50px;
+  background-color: black;
+  border-radius: 20px;
+  text-align: center;
+  border-color: #000;
+  font-size: larger;
+  color: white;
+  margin-bottom: 6%;
+
+}
+form input[type=submit]{
+  background-color:transparent;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  color:black;
+  cursor: pointer;
+  border-color: black;
+  transition: background 1s;
+  transition: color 1s;
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
+}
+form input[type=submit]:hover{
+  background-color: #000;
+  color:white;
+}
+form a{
+    position: absolute;
+    bottom: 4%;
+    left: 30%;
+    text-decoration: none;
+    color: #000;
+    text-decoration: solid;
+}
+.title{
+    font-size: medium;
+    position: absolute;
+    top: 17%;
+    left: 68%;
+}

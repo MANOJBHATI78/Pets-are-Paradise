@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\c language"
+		},
+		{
+			"path": "..\\html"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [],
+		"liveServer.settings.multiRootWorkspaceName": "PAP"
+	}
+}

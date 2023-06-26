@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+        background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(img/dog-desktop.jpg);
+        max-width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 0 11.2%;
+    }
+    .logo {
+        max-width: 100%;
+        height: auto;
+        color: black;
+        position: absolute;
+        cursor: pointer;
+        top: 2%;
+        left: 3%;
+    }
+    .logo a{
+        text-decoration: none;
+    }
+   
+    .logo p{
+        font-size: 20px;
+        font-weight: 100;
+        margin-left: 1%;
+    }
+   
+    .logo h1{
+        font-size: 60px;
+        line-height: 1;
+        color: black;
+        -webkit-text-stroke: 1.5px black; 
+    }
+   
+    .logo h3{
+        font-size: 15px;
+        font-weight: 200;
+        font-style: italic;
+        margin-left: 1%;
+    }
+    .box{
+        width: 400px;
+        height: 585px;
+        background-color: transparent;
+        box-shadow: 0 0 10px 0 #000;
+        border-radius: 50px;
+        position: absolute;
+        padding: 40px 30px 30px 80px;
+        left: 90px;
+        top: 170px;
+
+    }
+    
+    .title{
+        position: absolute;
+        top: 130px;
+        left: 150px;
+        font-size: medium;
+    }
+    .title h2{
+        position: absolute;
+        top: -6px;
+        left: 220px;
+        font-size: 40px;
+        color:greenyellow;
+        -webkit-text-stroke: 1.0px black;
+    }
+
+.sidebar{
+    width: 30px;
+    height: 100vh;
+    background: color #c0c0c0;;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 1s;
+}
+.sidebar:hover{
+    width:70px;
+}
+.ins{
+    width: 25px;
+    position: absolute;
+    bottom: 19%;
+    left: 15;
+}
+.fb{
+    width: 25px;
+    position: absolute;
+    bottom: 13%;
+    left: 15;
+}
+.tw{
+    width: 25px;
+    position: absolute;
+    bottom: 7%;
+    left: 15;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 0; 
+ }
+ nav ul{
+     flex: 1;
+     text-align: right;
+     padding-right: 20px;
+     padding-bottom: 55%;
+ }
+ nav ul li{
+     display: inline-block;
+     list-style: none;
+     margin: 10px 20px;
+ }
+ nav ul li a{
+     text-align: center;
+     border: 5px solid transparent;
+     background: transparent;
+     border-radius: 15px;
+     color:#000;
+     text-decoration: solid;
+     position: relative;
+     transition: background 2s;
+ }
+ nav ul li a:hover{
+     background:greenyellow;
+ }
+
+ input[type=text]{
+    width: 250px;
+    height:50px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    border-color: #000;
+    margin-bottom: 20px;
+    margin-top: 7px;
+    font-size: larger;
+    color: white;
+
+}
+form input[type=password]{
+  width: 250px;
+  height:50px;
+  background-color: black;
+  border-radius: 20px;
+  text-align: center;
+  border-color: #000;
+  font-size: larger;
+  color: white;
+
+}
+form input[type=submit]{
+  background-color:black;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  color:white;
+  cursor: pointer;
+  border-color: black;
+  position: absolute;
+  left: 30%;
+  bottom: 6%;
+}
+
+form input[type=date]{
+    margin-bottom: 5%;
+    border-radius: 20px;
+    
+}
+form p{
+    position: absolute;
+    bottom: 23%;
+    left: 60%;
+    font-size: 20px
+}

@@ -1,0 +1,70 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.tc{
+    text-align: center;
+    font-size: larger;
+    font-weight: 300;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.terms{
+    font-size:large;
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:inherit;
+    text-align: justify;
+    
+}
+.imp{    
+    font-size:large;
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:inherit;
+    text-align: justify;
+    font-weight: 800;
+
+}
+.imp1{
+    font-size:large;
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:inherit;
+    text-align: justify;
+    font-weight: 800;
+    
+}
+.objective{
+    text-align:start;
+    font-size: larger;
+    font-weight: 300;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.obj{
+    font-size:large;
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:inherit;
+    text-align: justify;
+}
+.box ul li{
+    font-size: large;
+    list-style:decimal;
+    margin: 10px 20px;
+    text-align: start;
+    
+}
+.imp3{
+    font-size:large;
+    font-style: inherit;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:inherit;
+    text-align: justify;
+
+}
